@@ -1,0 +1,16 @@
+version 2  -- 1 of September:
+In order to make crawler faster we can crawl multiple domains,
+for example, we can crawl only markafoni and will get 35000 products in 20 minutes,
+but if we will crawl 3 different domains:
+	ebay, amazon, markafoni
+we can get three times more products in 20 minutes.
+1. I will improve parsing speed
+2. I will make that you can run multiple instances of crawlers, on multiple machines
+3. I will make better table structure
+4. Will sovle the problem of crawling full domain
+
+version 3 -- 8 of September:
+1. Will ensure that even with 10000 threads, the crawler works properly
+2. Will make web service, with it you can add new domains via http protocol
+3. will test data handling on a big data sets 
+
